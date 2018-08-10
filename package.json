@@ -1,0 +1,17 @@
+{
+  "name": "Zadanie-24.5_Testing_self_written_application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./*.test.js",
+    "test:watch": "onchange \"./*.js\" -- npm test"
+  },
+  "keywords": [],
+  "author": "Miłosz Panas <miloszpanas@gmail.com> (https://github.com/miloszpanas)",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "onchange": "^4.1.0"
+  }
+}
